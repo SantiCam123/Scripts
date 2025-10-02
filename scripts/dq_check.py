@@ -1,6 +1,7 @@
 import sys, argparse, logging
 from pathlib import Path
-import pandas as pd, yaml
+import pandas as pd
+import yaml
  
 # --- Rutas robustas relativas a este archivo ---
 HERE = Path(__file__).resolve().parent     # .../project/scripts
